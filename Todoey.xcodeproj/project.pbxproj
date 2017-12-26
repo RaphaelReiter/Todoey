@@ -54,14 +54,22 @@
 		B6AFDCDC1FF2D3C300AEE80F /* Todoey */ = {
 			isa = PBXGroup;
 			children = (
+				B6AFDCEF1FF2DBEB00AEE80F /* Controller */,
 				B6AFDCDD1FF2D3C300AEE80F /* AppDelegate.swift */,
-				B6AFDCDF1FF2D3C300AEE80F /* TodoListViewController.swift */,
 				B6AFDCE11FF2D3C300AEE80F /* Main.storyboard */,
 				B6AFDCE41FF2D3C300AEE80F /* Assets.xcassets */,
 				B6AFDCE61FF2D3C300AEE80F /* LaunchScreen.storyboard */,
 				B6AFDCE91FF2D3C300AEE80F /* Info.plist */,
 			);
 			path = Todoey;
+			sourceTree = "<group>";
+		};
+		B6AFDCEF1FF2DBEB00AEE80F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFDCDF1FF2D3C300AEE80F /* TodoListViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
